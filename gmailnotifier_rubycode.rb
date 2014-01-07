@@ -3,7 +3,7 @@
 require "serialport"
 require "gmail"
 #connect to the email id 
-gmail = Gmail.new("rubycetb","ruby1@gmailnotifier")
+gmail = Gmail.new("username","password")
 
 prev_unread = gmail.inbox.count(:unread)
 
